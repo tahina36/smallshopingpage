@@ -24,3 +24,4 @@ Route::post('/dashboard/products/store', [\App\Http\Controllers\ProductControlle
 Route::get('/dashboard/products/edit/{product}', [\App\Http\Controllers\ProductController::class, 'edit'])->name('products.edit');
 Route::post('/dashboard/products/update/{product}', [\App\Http\Controllers\ProductController::class, 'update'])->name('products.update');
 Route::get('/products/show/{product}', [\App\Http\Controllers\ProductController::class, 'show'])->name('products.show');
+Route::get('/dashboard/products/remove/{id}', [\App\Http\Controllers\ProductController::class, 'destroy'])->name('products.remove');
