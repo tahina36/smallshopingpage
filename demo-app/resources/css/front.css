@@ -1,0 +1,149 @@
+html {
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.main-section{
+    background-color: #F8F8F8;
+    margin-top:50px;
+}
+.dropdown{
+    float:right;
+    padding-right: 30px;
+}
+.btn{
+    margin:10px 0px;
+    box-shadow:none !important;
+}
+.dropdown .dropdown-menu{
+    padding:20px;
+    top:30px !important;
+    width:350px !important;
+    left:-110px !important;
+    box-shadow:0px 5px 30px black;
+}
+.total-header-section{
+    border-bottom:1px solid #d2d2d2;
+}
+.total-section p{
+    margin-bottom:20px;
+}
+.cart-detail{
+    padding:15px 0px;
+}
+.cart-detail-img img{
+    width:100%;
+    height:100%;
+    padding-left:15px;
+}
+.cart-detail-product p{
+    margin:0px;
+    color:#000;
+    font-weight:500;
+}
+.cart-detail .price{
+    font-size:12px;
+    margin-right:10px;
+    font-weight:500;
+}
+.cart-detail .count{
+    color:#C2C2DC;
+}
+.checkout{
+    border-top:1px solid #d2d2d2;
+    padding-top: 15px;
+}
+.checkout .btn-primary{
+    border-radius:50px;
+    height:50px;
+}
+.dropdown-menu:before{
+    content: " ";
+    position:absolute;
+    top:-20px;
+    right:50px;
+    border:10px solid transparent;
+    border-bottom-color:#fff;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+/* Product page */
+.product-thumbnails {
+    width: 100px; height: 100px
+}
+
+.previous-price {
+    text-decoration:line-through;
+}
+
+.brand-name
+{
+    text-transform:capitalize;
+}
+
+.product-price-details {
+    border-color: darkred;
+    border-style: dotted;
+    margin: 10px;
+    padding: 10px;
+    font: small-caps bold 24px/1 sans-serif;
+    float: right;
+}
+
+.jumbotron-product {
+    padding: 20px;
+}
+
+.tab-content-product {
+    border-left-style: groove;
+    border-right-style: groove;
+    border-bottom-style: groove;
+    border-color: #dee2e6;
+}
+
+.pqt-plus,
+.pqt-minus {
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    padding: 0 20px;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+    user-select: none;
+    line-height: 50px;
+}
+
+.pqt-plus:hover,
+.pqt-minus:hover {
+    background: #202431;
+    color: #fff;
+    cursor: pointer;
+}
+
+.product-details-cart-actions #quantity {
+    text-align: right;
+}
+
+.main-product-image {
+    width: 100%;
+}
