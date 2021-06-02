@@ -79,7 +79,7 @@ class ProductController extends Controller
             }
         }
 
-        return redirect('/products')->with('success', 'produit créer avec succès');
+        return redirect('/dashboard')->with('success', 'produit créer avec succès');
     }
 
     /**
@@ -147,7 +147,7 @@ class ProductController extends Controller
                 ]);
             }
         }
-        return redirect('/products')->with('success', 'produit créer avec succès');
+        return redirect('/dashboard')->with('success', 'produit mis à jour avec succès');
     }
 
     /**
@@ -159,6 +159,6 @@ class ProductController extends Controller
     public function destroy($id)
     {
         Product::destroy($id);
-        return redirect('/products')->with('success', 'produit supprimé avec succès');
+        return redirect('/dashboard')->with('success', 'produit supprimé avec succès');
     }
 }
