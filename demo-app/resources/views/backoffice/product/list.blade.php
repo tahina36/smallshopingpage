@@ -41,7 +41,6 @@
                     @endforeach
                     </tbody>
                 </table>
-                <a href="{{ route('products.create') }}" class="btn btn-dark">Ajouter une marque</a>
                 <a href="{{ route('products.create') }}" class="btn btn-success">Ajouter un produit</a>
             </div>
         </div>
